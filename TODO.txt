@@ -1,0 +1,4 @@
+Crossbow-gun
+Crafted using a dispenser
+Bullets are crafted using iron nuggets, gunpowder and paper
+Bullet bench?
