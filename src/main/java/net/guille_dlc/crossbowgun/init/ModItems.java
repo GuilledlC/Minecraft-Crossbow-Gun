@@ -1,5 +1,6 @@
 package net.guille_dlc.crossbowgun.init;
 
+import net.guille_dlc.crossbowgun.CrossbowGunItem;
 import net.guille_dlc.crossbowgun.CrossbowGunMod;
 import net.minecraft.world.item.*;
 import net.neoforged.neoforge.common.DeferredSpawnEggItem;
@@ -12,12 +13,19 @@ public class ModItems {
 	}
 
 	public static Supplier<Item> CROSSBOW_GUN;
+	public static Supplier<Item> BULLET;
 
 	private static void registerItems() {
 		CROSSBOW_GUN = registerItem(() ->
-				new CrossbowItem(
+				new CrossbowGunItem(
 						new Item.Properties()),
 						"crossbow_gun");
+
+		BULLET = registerItem(() ->
+				new Item(
+						new Item.Properties()),
+						"bullet");
+
 	}
 
 	private static <T extends Item> Supplier<T> registerItem(Supplier<T> itemSupplier, String name) {
