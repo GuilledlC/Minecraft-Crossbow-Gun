@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow_gun",
+    "textures": {
+        "layer0": "crossbowgun:item/crossbow_gun_pulling_0"
+    }
+}
