@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "crossbowgun:item/crossbow_gun_loaded"
+    "layer0": "crossbowgun:item/crossbow_gun_standby"
   },
   "display": {
     "thirdperson_righthand": {
