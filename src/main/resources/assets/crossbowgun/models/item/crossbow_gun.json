@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "crossbowgun:item/crossbow_gun_standby"
+    "layer0": "crossbowgun:item/crossbow_gun_loaded"
   },
   "display": {
     "thirdperson_righthand": {
@@ -50,7 +50,7 @@
       "predicate": {
         "charged": 1
       },
-      "model": "crossbowgun:item/crossbow_gun_loaded"
+      "model": "crossbowgun:item/crossbow_gun_arrow"
     },
     {
       "predicate": {

@@ -18,11 +18,13 @@ public class ModItems {
 	private static void registerItems() {
 		CROSSBOW_GUN = registerItem(() ->
 				new CrossbowGunItem(
-						new Item.Properties()),
+						new Item.Properties()
+								.stacksTo(1)
+								.durability(465)),
 						"crossbow_gun");
 
 		BULLET = registerItem(() ->
-				new Item(
+				new ArrowItem(
 						new Item.Properties()),
 						"bullet");
 
