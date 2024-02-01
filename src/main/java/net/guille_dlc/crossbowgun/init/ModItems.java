@@ -1,9 +1,8 @@
 package net.guille_dlc.crossbowgun.init;
 
-import net.guille_dlc.crossbowgun.CrossbowGunItem;
+import net.guille_dlc.crossbowgun.items.CrossbowGunItem;
 import net.guille_dlc.crossbowgun.CrossbowGunMod;
 import net.minecraft.world.item.*;
-import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import java.util.function.Supplier;
 

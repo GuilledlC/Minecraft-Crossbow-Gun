@@ -1,4 +1,4 @@
-package net.guille_dlc.crossbowgun;
+package net.guille_dlc.crossbowgun.items;
 
 import com.google.common.collect.Lists;
 import net.minecraft.ChatFormatting;
